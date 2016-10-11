@@ -1,0 +1,34 @@
+@import '../../_variables';
+
+.feed-container {
+  background: $color-page-background;
+  width: 50%;
+  margin: auto;
+
+  .card {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    background-color: $color-main-background;
+  }
+
+  .light-text {
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .total-value {
+    color: $color-dark-grey;
+    font-size: 18px;
+  }
+
+  .feed {
+    border-bottom: 1px solid $color-page-background;
+  }
+
+  .tweet {
+    font-weight: 200;
+  }
+
+  .active.total-data {
+    border-bottom: 5px solid $color-twitter;
+  }
+}

@@ -1,0 +1,70 @@
+@import '../../_variables';
+
+.header-container {
+  background-color: $color-main-background;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+
+  .left-navs,
+  .right-navs {
+    flex: 1;
+  }
+
+  .active {
+    border-bottom: 1px solid $color-twitter;
+  }
+
+  .logo-container {
+    flex: 2;
+  }
+
+  .logo {
+    color: $color-twitter;
+  }
+
+  .feeds {
+    border-right: 1px solid $color-page-background;
+
+    .circle-wrapper {
+      background-color: $color-twitter;
+    }
+  }
+
+  .placeholder-icon {
+    position: absolute;
+    right: -20px;
+    font-size: 16px;
+    top: 25%;
+    color: $color-page-background;
+  }
+
+  .search-wrapper {
+    position: relative;
+  }
+
+  .user-icon {
+    background-color: $color-main-background;
+  }
+
+  .search {
+    padding: 10px 15px;
+    border: 1px solid $color-page-background;
+    border-radius: 16px;
+    width: 100%;
+    font-size: 14px;
+    background-color: $color-main-background;
+    transition: all 0.2s;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $color-light-grey;
+    }
+  }
+}

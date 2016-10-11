@@ -1,0 +1,44 @@
+@import './_variables';
+
+.text-center {
+  text-align: center;
+}
+
+#root {
+  background-color: $color-page-background;
+  padding-top: 70px;
+  min-height: 100vh;
+  min-width: 1024px;
+  line-height: 1.4;
+}
+
+.color-dark-grey {
+  color: $color-dark-grey;
+}
+
+.color-light-grey {
+  color: $color-light-grey;
+}
+
+body {
+  color: $color-dark-grey;
+}
+
+.circle-wrapper {
+  cursor: pointer;
+  width: 35px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $color-page-background;
+  border-radius: 50%;
+}
+
+.font-weight-light {
+  font-weight: 200;
+}
+
+.cursor {
+  cursor: pointer;
+}
