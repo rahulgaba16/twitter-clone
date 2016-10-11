@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Feed from './components/Feed/Feed'
+import Feed from './components/Feed/Feed.jsx'
 import Header from './components/Header/Header'
 
 class App extends Component {
